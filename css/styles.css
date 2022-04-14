@@ -1,39 +1,35 @@
 body {
   color: #053742;
-  margin: 0;
+  margin: 0 auto;
   text-align: center;
-  font-family: 'Open Sans', sans-serif;
+  font-family: "Open Sans", sans-serif;
 }
+
+/* Headers and paragraphs */
 
 h1 {
   color: #053742;
   font-size: 5.625rem;
   margin: 50px auto 0 auto;
-  font-family: 'Nanum Gothic Coding', monospace;
+  font-family: "Nanum Gothic Coding", monospace;
 }
 
 h2 {
   color: #053742;
-  font-family: 'Montserrat', sans-serif;
+  font-family: "Montserrat", sans-serif;
   font-size: 2.5rem;
   font-weight: normal;
   padding-bottom: 10px;
 }
 
+.description {
+  margin-bottom: 0;
+}
+
 h3 {
   color: #053742;
-  font-family: 'Montserrat', sans-serif;
-}
-
-a {
-  color: #1A374D;
-  font-family: 'Open Sans', sans-serif;
-  margin: 10px 20px;
-  text-decoration: none;
-}
-
-a:hover {
-  color: #ffffff;
+  font-family: "Montserrat", sans-serif;
+  font-size: 1.5rem;
 }
 
 p {
@@ -43,25 +39,32 @@ p {
 hr {
   border: 0;
   height: 1px;
-  background-image: linear-gradient(to right, rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.75), rgba(0, 0, 0, 0));
+  background-image: linear-gradient(
+    to right,
+    rgba(0, 0, 0, 0),
+    rgba(0, 0, 0, 0.75),
+    rgba(0, 0, 0, 0)
+  );
   width: 60%;
   margin: 100px auto;
 }
 
+/* Containers */
+
 .top-container {
-  background-color: #FAF3F3;
+  background-color: #faf3f3;
   position: relative;
   padding-top: 100px;
 }
 
 .middle-container {
-  background-color: #FAF3F3;
+  background-color: #faf3f3;
   margin: 0;
-  padding: 100px;
+  padding: 50px 100px;
 }
 
 .bottom-container {
-  background-color: #A7BBC7;
+  background-color: #a7bbc7;
   padding: 50px 0 10px;
 }
 
@@ -69,10 +72,6 @@ hr {
   width: 75%;
   margin: 100px auto 100px auto;
   text-align: left;
-}
-
-.pro {
-  text-decoration: underline;
 }
 
 .intro {
@@ -86,13 +85,19 @@ hr {
 }
 
 .copyright {
-  color: #EAF6F6;
+  color: #eaf6f6;
   font-size: 0.75em;
   padding: 20px 0;
 }
 
+/* Images */
+
 .icons {
-  font-size:0.75em;
+  font-size: 0.75em;
+}
+
+.profile-picture {
+  width: 250px;
 }
 
 .drums-img {
@@ -108,14 +113,16 @@ hr {
 }
 
 .icons {
-  font-size: .75rem;
+  font-size: 0.75rem;
 }
+
+/* Button and links */
 
 .btn {
   -webkit-border-radius: 8;
   -moz-border-radius: 8;
   border-radius: 8px;
-  font-family: 'Montserrat', sans-serif;
+  font-family: "Montserrat", sans-serif;
   color: #ffffff;
   font-size: 20px;
   background: #053742;
@@ -124,6 +131,17 @@ hr {
 }
 
 .btn:hover {
-  background: #A7BBC7;
+  background: #a7bbc7;
   text-decoration: none;
+}
+
+a {
+  color: #1a374d;
+  font-family: "Open Sans", sans-serif;
+  margin: 10px 20px;
+  text-decoration: none;
+}
+
+a:hover {
+  color: #ffffff;
 }
